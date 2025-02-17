@@ -1,8 +1,8 @@
 # Projeto de Integração de Marketplaces
 
-##Cenário 1: Integração de Marketplaces (Amazon e Mercado Livre)
+## Cenário 1: Integração de Marketplaces (Amazon e Mercado Livre)
 
-##1. Documentação e Materiais de Apoio
+### 1. Documentação e Materiais de Apoio
 
 1.1 - Identificação da documentação:
 		Especificação técnicas da API de integração - Documentação que descreve a integração entre o sistemas isso inclui os endpoints.
