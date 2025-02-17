@@ -8,7 +8,7 @@
 		Especificação técnicas da API de integração - Documentação que descreve a integração entre o sistemas isso inclui os endpoints.
 		Requisitos do projeto e regras de negócio - Definições dos objetivos do projeto e as regras que precisam ser guiadas na integração.
 		
-1.2 - Análise da Documentação:
+**1.2 - Análise da Documentação:**
 		Revisar endpoints e requisitos obrigatórios - Verificar todos os endpoints fornecidos pela API para garantir que todas as informações necessãrias para o sucesso da integração.
 		Analisar fluxos criticos de cada funcionalidade - Identificar quais fluxos de integração essenciais para o negócio e garantir o fluxo.
 		
