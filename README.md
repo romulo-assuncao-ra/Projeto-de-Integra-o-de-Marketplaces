@@ -4,7 +4,7 @@
 
 ### 1. Documentação e Materiais de Apoio
 
-1.1 - Identificação da documentação:
+**1.1 - Identificação da documentação:**
 		Especificação técnicas da API de integração - Documentação que descreve a integração entre o sistemas isso inclui os endpoints.
 		Requisitos do projeto e regras de negócio - Definições dos objetivos do projeto e as regras que precisam ser guiadas na integração.
 		
@@ -109,7 +109,7 @@
 
 ## Cenário 4: Validações de Dados Cadastrais
 
-## Casos de Teste: Validações seram realizadas de acordo com a documentação oficial ou regra de negócio.
+### Casos de Teste: Validações seram realizadas de acordo com a documentação oficial ou regra de negócio.
 
 
   ### Testes para Nome Completo
