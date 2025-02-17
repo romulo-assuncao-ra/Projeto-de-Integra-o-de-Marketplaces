@@ -20,7 +20,7 @@
 		Postman para teste de API
 		Swagger para documentação interativa da API
 
-2. Abrangência dos Testes
+### 2. Abrangência dos Testes
 
 2.1 - Funcionalidades Testadas:
 		Integração de estoque - Vericar se o sistema atualiza corretamente o estoque quando há mudanças o estoque do sistema.
@@ -38,7 +38,7 @@
 		Riscos potenciais - Testar funcionalidades críticas que, se falharem, podem causar grandes problemas (Ex: atualização de estoque ou de preços).
 		Falhas na integração - Avaliar como o sistema se comporta quando a integração falha, para garantir que o erro seja tratado corretamente.
 		
-3. Execução dos Testes
+### 3. Execução dos Testes
 
 3.1 - Ambiente de Teste
 		Ambiente de homologação com acesso à API - O ambiente de teste é onde todos os teste serão executados, geralmente um ambiente isolado para garantir que a produção não seja afetada. 
@@ -54,9 +54,9 @@
 3.4 - Registro de resultdos
 		Ferramentas de Gerenciamento de testes (TestRail, Zephyr, etc) - Usadas para documentar os resultados dos testes realizados, permintindo rastrear o status de cada teste e os erros encontrados.
 
-Cenário 2: Integração com Bling
+## Cenário 2: Integração com Bling
 
-1. Documentação e Materiais de Apoio
+### 1. Documentação e Materiais de Apoio
 
 1.1 - Identificação da documentação:
 		Especificação técnicas da API de integração
@@ -71,7 +71,7 @@ Cenário 2: Integração com Bling
 		Swagger para documentação interativa da API
 		
 
-2. Abrangência dos Testes
+### 2. Abrangência dos Testes
 
 2.1 - Funcionalidades Testadas:
 		Sicronização de produtos
@@ -84,7 +84,7 @@ Cenário 2: Integração com Bling
 		Riscos potenciais
 		Falhas na integração
 		
-3. Execução dos Testes
+### 3. Execução dos Testes
 
 3.1 - Dados de Teste
 		Diferentes variações de produtos.
@@ -96,9 +96,9 @@ Cenário 2: Integração com Bling
 3.3 - Registro de resultdos
 		Ferramentas de Gerenciamento de testes (TestRail, Zephyr, etc)
 
-Cenário 3:  Erro de Atualização de Estoque no Mercado Livre
+## Cenário 3:  Erro de Atualização de Estoque no Mercado Livre
 
-3.1 - Passos para análise
+### 3.1 - Passos para análise
 		Verificar os logs da API para confirmação de envio da informação de estoque
 		Testar envio manual de atualização de estoque para validar o comportamento esperado
 		Hipóteses para a falha:
@@ -107,12 +107,12 @@ Cenário 3:  Erro de Atualização de Estoque no Mercado Livre
 			Erro de configuração do sistema
 		Solicitar documentação do ML para verificar regras de atualização de estoque
 
-Cenário 4: Validações de Dados Cadastrais
+## Cenário 4: Validações de Dados Cadastrais
 
-Casos de Teste: Validações seram realizadas de acordo com a documentação oficial ou regra de negócio.
+## Casos de Teste: Validações seram realizadas de acordo com a documentação oficial ou regra de negócio.
 
 
-  # Testes para Nome Completo
+  ### Testes para Nome Completo
   CT_001: Nome completo válido
     Dado que o usuário preencheu o campo "Nome completo" com "João da Silva"
     Quando o sistema valida o nome
@@ -128,7 +128,7 @@ Casos de Teste: Validações seram realizadas de acordo com a documentação ofi
     Quando o sistema validar o nome
     Então o sistema deve exibir a mensagem "O campo nome é obrigatório."
 
-  # Testes para E-mail
+  ### Testes para E-mail
   CT_004: E-mail válido
     Dado que o usuário preencheu o campo "E-mail" com "joao.silva@gmail.com"
     Quando o sistema valida o e-mail
@@ -144,7 +144,7 @@ Casos de Teste: Validações seram realizadas de acordo com a documentação ofi
     Quando o sistema valida o e-mail
     Então o sistema deve exibir a mensagem "O campo E-mail é obrigatório."
 
-  # Testes para Número de Telefone
+  ### Testes para Número de Telefone
   CT_007: Número de telefone válido
     Dado que o usuário preencheu o campo "Número de telefone" com "(11) 91234-5678"
     Quando o sistema valida o telefone
@@ -160,7 +160,7 @@ Casos de Teste: Validações seram realizadas de acordo com a documentação ofi
     Quando o sistema valida o telefone
     Então o sistema deve exibir a mensagem "O campo Número de telefone é obrigatório."
 
-  # Testes para Data de Nascimento
+  ### Testes para Data de Nascimento
   CT_010: Data de nascimento válida
     Dado que o usuário preencheu o campo "Data de nascimento" com "01/01/1990"
     Quando o sistema valida a data de nascimento
@@ -176,7 +176,7 @@ Casos de Teste: Validações seram realizadas de acordo com a documentação ofi
     Quando o sistema valida a data de nascimento
     Então o sistema deve exibir a mensagem "O campo Data de nascimento é obrigatório."
 
-  # Testes para Endereço
+  ### Testes para Endereço
   CT_013: Endereço completo válido
     Dado que o usuário preencheu o campo "Rua" com "Avenida Paulista", "Cidade" com "São Paulo", "Estado" com "SP", e "CEP" com "01310-000"
     Quando o sistema valida o endereço
